@@ -4,7 +4,7 @@ pragma solidity ^0.8.19;
 
 import {SimpleStorage} from "./SimpleStorage.sol";
 
-contract createNewInstances {
+contract StorageFactory {
     SimpleStorage[] public listOfContractInstances;
 
     function createInstances() public {
@@ -12,12 +12,12 @@ contract createNewInstances {
         listOfContractInstances.push(myInstances);
     }
 
-    function myStore(uint256 _index, uint256 _number) public {
+    function sfStore(uint256 _index, uint256 _number) public {
         SimpleStorage myIndex = listOfContractInstances[_index];
         myIndex.store(_number);
     }
 
-    function getNumber(uint256 _index) public view returns(uint256){
+    function sfGet(uint256 _index) public view returns(uint256){
         SimpleStorage instance = listOfContractInstances[_index];
         return instance.retrieve();
     }
