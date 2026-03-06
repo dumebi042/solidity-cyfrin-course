@@ -1,0 +1,51 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"AnimalList.sol": "Birds"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"AnimalList.sol": {
+			"keccak256": "0xdd450e1b14d44e914765261cbed18dbb2de5e023119bb2cb17120f3276693c29",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://182ae7d76940ee56563adbb3ba52c84adfaee7e6dc9bdba23ea9908b11aae469",
+				"dweb:/ipfs/Qmf6ZK79aW875MzcxzavTE936s6D61cWVDiN41nLr4xoEF"
+			]
+		}
+	},
+	"version": 1
+}
